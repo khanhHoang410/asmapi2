@@ -5,15 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#343A4A"
+    android:background="@color/white"
     tools:context=".AccountActivity.ActivityRegister">
 
-    <ImageView
-        android:layout_width="250dp"
-        android:layout_height="150dp"
-        android:layout_gravity="center_horizontal"
-        android:src="@drawable/banner"
-        android:layout_marginTop="20dp"/>
+
 
 
     <TextView

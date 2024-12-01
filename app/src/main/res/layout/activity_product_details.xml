@@ -27,7 +27,7 @@
             android:background="?attr/selectableItemBackgroundBorderless"
 
             android:src="@drawable/ar_left"
-            android:tint="@android:color/white" />
+            android:tint="@color/black" />
     </RelativeLayout>
 
     <LinearLayout

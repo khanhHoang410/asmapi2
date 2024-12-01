@@ -32,6 +32,8 @@ public interface APIService {
     //  bill
     @GET("bills")
     Call<List<BillModel>> getBill();
+    @DELETE("products/{id}")
+    Call<Void> deleteProduct(@Path("id") String id);
 
     @DELETE("bills/{id}")
     Call<Void> deleteBill(@Path("id") String id);

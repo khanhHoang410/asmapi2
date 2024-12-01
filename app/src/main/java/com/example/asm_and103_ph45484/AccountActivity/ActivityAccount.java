@@ -41,9 +41,7 @@ public class ActivityAccount extends AppCompatActivity {
             updateProfile();
         });
 
-        binding.icPerson.setOnClickListener(v -> {
-            finish(); // Trở về màn hình trước đó
-        });
+
 
         binding.icLogout.setOnClickListener(new View.OnClickListener() {
             @Override

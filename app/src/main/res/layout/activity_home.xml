@@ -18,7 +18,7 @@
         android:layout_height="60dp"
         android:id="@+id/bottom_navigation"
         app:menu="@menu/bottom_nav_menu"
-        android:background="#FFE4C4"
+        android:background="@color/white"
         app:itemPaddingBottom="8dp"
         android:layout_alignParentBottom="true"
         />

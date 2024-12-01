@@ -7,9 +7,8 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
 import com.example.asm_and103_ph45484.Cart.FragmentCart;
-import com.example.asm_and103_ph45484.Favorite.FragmentFavorite;
+
 import com.example.asm_and103_ph45484.Home.Fragment.FragmentProduct;
-import com.example.asm_and103_ph45484.Notification.FragmentNotification;
 import com.example.asm_and103_ph45484.R;
 import com.example.asm_and103_ph45484.databinding.ActivityHomeBinding;
 
@@ -36,10 +35,6 @@ public class ActivityHome extends AppCompatActivity {
                 selectedFragment = new FragmentProduct();
             } else if (item.getItemId() == R.id.navCart) {
                 selectedFragment = new FragmentCart();
-            } else if (item.getItemId() == R.id.navFavorite) {
-                selectedFragment = new FragmentFavorite();
-            } else {
-                selectedFragment = new FragmentNotification();
             }
             return loadFragment(selectedFragment);
         });

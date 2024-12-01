@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#343A4A"
+
     tools:context=".AccountActivity.ActivityAccount">
 
     <FrameLayout
@@ -14,13 +14,7 @@
         android:orientation="horizontal"
         android:padding="16dp">
 
-        <ImageView
-            android:id="@+id/ic_person"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="start|center_vertical"
-            android:src="@drawable/ar_left"
-            android:contentDescription="Person Icon"/>
+
 
         <TextView
             android:layout_width="wrap_content"
@@ -41,12 +35,7 @@
             android:contentDescription="Person Icon"/>
     </FrameLayout>
 
-    <ImageView
-        android:layout_width="180dp"
-        android:layout_height="180dp"
-        android:src="@drawable/icom_person"
-        android:layout_marginVertical="20dp"
-        android:layout_gravity="center_horizontal"/>
+
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
